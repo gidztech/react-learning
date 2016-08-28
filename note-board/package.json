@@ -1,14 +1,24 @@
 {
-  "name": "bb",
+  "name": "note-board",
   "version": "1.0.0",
-  "description": "bb",
-  "main": "Note.js",
+  "description": "This is a note board app created as part of the Lynda course: https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/379264-2.html",
+  "main": "",
   "scripts": {
     "start": "open http://localhost:4321 & httpster -p 4321",
     "compile": "babel js -d build"
   },
-  "author": "G",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/gidztech/react-learning.git"
+  },
+  "author": "Gideon Pyzer",
   "license": "MIT",
+  "bugs": {
+   "url": "https://github.com/gidztech/react-learning/issues"
+  },
+  "homepage": "https://github.com/gidztech/react-learning#readme",
+  "dependencies": {
+  },
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-preset-react": "^6.11.1",
