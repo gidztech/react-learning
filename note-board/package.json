@@ -1,0 +1,17 @@
+{
+  "name": "bb",
+  "version": "1.0.0",
+  "description": "bb",
+  "main": "Note.js",
+  "scripts": {
+    "start": "open http://localhost:4321 & httpster -p 4321",
+    "compile": "babel js -d build"
+  },
+  "author": "G",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "httpster": "^1.0.3"
+  }
+}
